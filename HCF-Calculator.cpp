@@ -22,9 +22,9 @@ int main(){
     cin >> a >> b;
 
     if (a < 0 || b < 0 || (b == 0 && a == 0))
-        cout << "An error occurred.\n";
+        cout << endl << "An error occurred.\n";
     else
-        cout << "The GCD of " << a << " and " << b << " is " << GCD(a, b) << ".\n";
+        cout << endl << "The GCD of " << a << " and " << b << " is " << GCD(a, b) << ".\n";
 
     return 0;
 }

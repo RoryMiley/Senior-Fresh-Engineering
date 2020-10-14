@@ -21,7 +21,7 @@ int main(){
     cout << "Please enter the two numbers whose GCD you wish to calculate: ";
     cin >> a >> b;
 
-    if (a < 0 || b < 0 || b == 0 && a == 0)
+    if (a < 0 || b < 0 || (b == 0 && a == 0))
         cout << "An error occurred.\n";
     else
         cout << "The GCD of " << a << " and " << b << " is " << GCD(a, b) << ".\n";
